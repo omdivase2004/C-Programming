@@ -5,7 +5,7 @@ int main()
     int evensum=0,oddsum=0;
     printf("Enter a number of n");
     scanf("%d",&n);
-    for (i=1;i<=1;i++){
+    for (i=1;i<=n;i++){
     if(i%2==0)
     evensum+=i;
     else
